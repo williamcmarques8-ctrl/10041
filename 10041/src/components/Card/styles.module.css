@@ -1,54 +1,57 @@
-.card {
+.card{
+  margin-top: 3rem;
+  display: inline-flex;
+  width: 44rem;
+  height: 28rem;
+  Gap:5rem;
+  background-color: beige;
+  margin-left: 5rem;
+  border-radius: 1rem;
+}
+
+.card div{
+  width: 21rem;
+}
+
+.card img{
+  margin-left: 4rem;
+  margin-top: 4rem;
+  height: 19rem;
+  width: auto;
+  align-self: flex-start;
+  border: solid 8px ;
+}
+.card h5{
+  margin-right: 5rem;
+  text-align: right;
+  
+}
+
+.card h2{
+  margin-top: 5rem;
+  margin-right: 5rem;
+  color: rgb(7, 7, 88);
+}
+.list{
   display: flex;
-  gap: 12px;
-  background: #fffbe6;
-  border-radius: 16px;
-  padding: 24px;
-  width: 15rem;
-  height: 12rem;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
 }
 
-
-.list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  padding: 40px;
-  background: #d7e2e8;
+body{
+  background-color: rgb(205, 219, 230);
 }
 
-.card img {
-  width: 100px;
-  height: auto;
-  border: 3px solid #000;
-}
-
-
-.card h2 {
-  font-size: 18px;
-  margin-bottom: 8px;
-  color: #0b1b4a;
-}
-
-.card p {
-  margin: 4px 0;
-  font-size: 14px;
-  color: #333;
-}
-
-
-.button {
-  margin-top: 12px;
-  padding: 8px 14px;
-  border-radius: 6px;
-  background: #474747;
+.card button{
+  background-color: black;
   color: white;
-  cursor: pointer;
-  transition: 0.2s;
+  border: solid black 1px;
+  border-radius: 4px;
+  padding: 8px 15px;
 }
 
-.button:hover {
-  transform: scale(1.05);
-  background: #000;
+.card button:hover{
+  background-color: rgb(87, 94, 102);
+  border: solid rgb(87, 94, 102) 1px;
 }
